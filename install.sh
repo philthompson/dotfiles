@@ -6,14 +6,15 @@ THIS_DIR="`dirname "${THIS_SCRIPT}"`"
 for DOTFILE in gitconfig bashrc bash_aliases vim vimrc Xresources
 do
   DEST="${HOME}/.${DOTFILE}"
-  if [ -f "${DEST}" ]
+  if [ -e "${DEST}" ]
   then
     if [ -L "${DEST}" ]
     then
-      rm "${DEST}"
+      rm -v "${DEST}"
     else
-      mv "${DEST}" "${HOME}/${DOTFILE}.saved.`date +%s`"
+      mv -v "${DEST}" "${HOME}/${DOTFILE}.saved.`date +%s`"
     fi
   fi
   ln -sv "${THIS_DIR}/${DOTFILE}" "${DEST}"
+  echo ""
 done
