@@ -5,6 +5,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+set laststatus=2
+
 " syntastic recommended settings
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
