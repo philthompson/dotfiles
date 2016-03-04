@@ -6,6 +6,7 @@ syntax on
 filetype plugin indent on
 
 set laststatus=2
+let g:airline_section_b = '⎇  %{fugitive#head()}'
 
 " syntastic recommended settings
 set statusline+=%#warningmsg#
