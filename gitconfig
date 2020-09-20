@@ -1,3 +1,7 @@
+# -=-=-=-=-=-=-
+# NOT including git user email, since this dotfiles repo is public
+# -=-=-=-=-=-=-
+
 [alias]
 # log aliases from: http://stackoverflow.com/questions/1057564/pretty-git-branch-graphs
 lg1 = log -n 20 --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
