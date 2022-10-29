@@ -1,7 +1,5 @@
 set nocompatible          " get rid of Vi compatibility mode. SET FIRST!
 
-execute pathogen#infect()
-
 syntax on
 filetype plugin indent on
 
@@ -35,12 +33,12 @@ colorscheme hybrid
 set number                  " show line numbers
 set ignorecase              " Make searches case-insensitive.
 set ruler                   " Always show info along bottom.
-set expandtab               " use spaces instead of tabs
-set shiftwidth=2
-set tabstop=2
+"set expandtab               " use spaces instead of tabs
+set shiftwidth=4
+set tabstop=4
 set smarttab
 set nowrap                  " don't wrap text
-set hls                     " highlight search
+set hlsearch                " highlight search
 
 " this didn't work after installing colorscheme?
 match ErrorMsg '\s\+$'      " highlight trailing whitespace

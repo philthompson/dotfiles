@@ -1,21 +1,18 @@
-[submodule "vim/bundle/vim-pathogen"]
-	path = vim/bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
 [submodule "vim/bundle/syntastic"]
-	path = vim/bundle/syntastic
+	path = vim/pack/phil-auto/start/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 [submodule "vim/bundle/tabular"]
-	path = vim/bundle/tabular
+	path = vim/pack/phil-auto/start/tabular
 	url = https://github.com/godlygeek/tabular.git
 [submodule "vim/bundle/indentLine"]
-	path = vim/bundle/indentLine
+	path = vim/pack/phil-auto/start/indentLine
 	url = https://github.com/Yggdroot/indentLine.git
 [submodule "vim/bundle/vim-hybrid"]
-	path = vim/bundle/vim-hybrid
+	path = vim/pack/phil-auto/start/vim-hybrid
 	url = https://github.com/scwood/vim-hybrid.git
 [submodule "vim/bundle/vim-airline"]
-	path = vim/bundle/vim-airline
+	path = vim/pack/phil-auto/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
 [submodule "vim/bundle/vim-fugitive"]
-	path = vim/bundle/vim-fugitive
+	path = vim/pack/phil-auto/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
